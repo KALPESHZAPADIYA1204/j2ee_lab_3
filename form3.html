@@ -6,21 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="form3" method="post" action="showparameter">
+    <form name="form3" action="http://localhost:8080/showparameter">
         <h1><b><center>Student Information</center></b></h1>
 
     <table border="0" align="center">
         <tr>
-            <td><label for="">ROLL NO:</label></td>
-            <td><input type="text" value="" name="txtroll"></td>
+            <td><label for="">ROLLNO:</label></td>
+            <td><input type="text" value="" name="ROLLNO"></td>
             </tr>
             <tr>
                 <td><label for="">NAME:</label></td>
-                <td><input type="text" value="" name="txtnm"></td>
+                <td><input type="text" value="" name="NAME"></td>
                 </tr>
                 <tr>
                     <td><label for="">Course:</label></td>
-                    <td><select name="selected">
+                    <td><select name="Course">
                         <option value="B.SC">B.SC</option>
                         <option value="BCA">BCA</option>
                         <option value="BBA">BBA</option>
@@ -40,22 +40,22 @@
                         </tr>
                     <tr>
                         <td><label for="">DIVISION:</label> </td>
-                       <td><input type="radio" name="stream" id="DIV A">Div A
-                        <input type="radio" name="stream" id="DIV B">Div B
-                        <input type="radio" name="stream" id="DIV C">Div C
+                       <td><input type="radio" name="" value="DIV A">Div A
+                        <input type="radio" name="DIVISION" value="DIV B">Div B
+                        <input type="radio" name="DIVISION" value="DIV C">Div C
                             </td>
                     </td>
                 </tr>
                 <tr>
                     <td><label for="">Hobbies:</label></td>
-                    <td><input type="checkbox" name="Music">Music
-                        <input type="checkbox" name="Travelling">Travelling
-                        <input type="checkbox" name="Reading">Reading
+                    <td><input type="checkbox" name="Hobbies" value="Music">Music
+                        <input type="checkbox" name="Hobbies" value="Travelling">Travelling
+                        <input type="checkbox" name="Hobbies" value="Reading">Reading
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" name="submit">
-                            <input type="reset" name="reset">
+                            <input type="submit" name="" id="submit">
+                            <input type="reset" name="" id="reset">
                         </td>
                     </tr>
                 </table>
